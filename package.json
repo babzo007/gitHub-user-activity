@@ -1,0 +1,42 @@
+{
+  "name": "github-user-activity",
+  "version": "1.0.0",
+  "description": "Use GitHub API to fetch user activity and display it in the terminal",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint src",
+    "format": "prettier --write \"src/**/*.js\" \"test/**/*.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/babzo007/gitHub-user-activity.git"
+  },
+  "keywords": [
+    "github",
+    "api",
+    "user",
+    "activity"
+  ],
+  "author": "Ababacar Niang",
+  "license": "ISC",
+  "bin": {
+    "github-activity": "./src/cli.js"
+  },
+  "bugs": {
+    "url": "https://github.com/babzo007/gitHub-user-activity/issues"
+  },
+  "homepage": "https://github.com/babzo007/gitHub-user-activity#readme",
+  "dependencies": {
+    "commander": "^13.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "babel-jest": "^29.7.0",
+    "eslint": "^9.17.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1"
+  }
+}
